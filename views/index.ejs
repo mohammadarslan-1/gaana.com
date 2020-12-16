@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Download Latest MP3 Songs Online: Play Old & New MP3 Music Online Free on Gaana.com</title>
+        <link rel="stortcut icon" type="image/png" href="Media/icon.png">
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/slider.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css" integrity="sha512-CIYsJUa3pr1eoXlZFroEI0mq0UIMUqNouNinjpCkSWo3Bx5NRlQ0OuC6DtEB/bDqUWnzXc1gs2X/g52l36N5iw==" crossorigin="anonymous" />
+    </head>
+    <body>
+        <%- include("partials/header") -%>         
+        <%- include("partials/Queue") -%>
+        <!-- <div class=" player">
+            <div id="aplayer" class="apalyer"></div>
+        </div>           -->
+        <div class="background-1">
+            <div class="bar">
+                <div class="header-2">
+                    <div class="search-bar">
+                        <input class="search_input" type="text" name="search" placeholder="Search for Songs, Artists, Playlists and More">
+                        <div class="search-background">
+                            <a href="#" class="search_icon"><i class="fas fa-search"></i>Search</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-btn">
+                    <a class="btn-2" href="#trending">trending</a>
+                </div>
+            </div>
+            <div class="page-wrapper">
+                <div class="post-slider">
+                    <h1 class="slider-title">Top Picks</h1>                    
+                    <i class="fas fa-chevron-left prev"></i>
+                    <i class="fas fa-chevron-right next"></i>
+                    <div class="post-wrapper">
+                        <div class="post">
+                            <img src="Media/1.jpg" class="slider-image">
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>
+                        <div class="post song" data-switch="3">
+                            <img src="Media/2.jpg" class="slider-image">
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <img src="Media/3.jpg" class="slider-image">
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <img src="Media/4.jpg" class="slider-image">
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <img src="Media/5.jpg" class="slider-image">
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <img src="Media/6.jpg" class="slider-image">
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <img src="Media/7.png" class="slider-image">
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <img src="Media/8.jpg" class="slider-image">
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <img src="Media/9.jpg" class="slider-image">
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-2">                
+                <div class="recently-played">
+                    <div class="inner">
+                        <h2>recently played</h2>
+                        <div class="item">
+                            <img class="" src="Media/recently1.jpg" alt="Bezubaan">
+                            <div class="content">bezubaan</div>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="" src="Media/recently2.jpg" alt="Romantic Mashup">
+                            <div class="content">romantic mashup 2</div>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <hr id="trending" class="new1">
+                <br>
+            </div>
+            <div id="carouselFade" class="carousel slide arslan" data-ride="carousel">
+                <div class="carousel-inner">
+                    <h2>trending songs</h2>
+                    <div class="carousel-item active">
+                        <div class="row">
+                        <div class="col-2 song" data-switch="1">
+                            <img src="Media/trending/1.jpg" class="img-thumbnail" alt="">
+                            <a href="#">loca</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/trending/2.jpg" class="img-thumbnail" alt="">
+                            <a href="#">jee kar da</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/trending/3.jpg" class="img-thumbnail" alt="">
+                            <a href="#">tu bhi royega</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/trending/4.jpg" class="img-thumbnail" alt="">
+                            <a href="#">shopping</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/trending/5.jpg" class="img-thumbnail" alt="">
+                            <a href="#">do you love me</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/trending/6.jpg" class="img-thumbnail" alt="">
+                            <a href="#">red eye</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        </div>
+                    </div>            
+                    <div class="carousel-item">
+                        <div class="row">
+                        <div class="col-2">
+                            <img src="Media/trending/7.jpg" class="img-thumbnail" alt="">
+                            <a href="#">boht tej</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2 song" data-switch="0">
+                            <img src="Media/trending/8.jpg" class="img-thumbnail" alt="">
+                            <a href="#">2 cheene</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>        
+                        <div class="col-2 song" data-switch="5">
+                            <img src="Media/trending/9.jpg" class="img-thumbnail" alt="">
+                            <a href="#">tum na ho</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/trending/10.jpg" class="img-thumbnail" alt="">
+                            <a href="#">pink pink addiyaan</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2 song" data-switch="4">
+                            <img src="Media/trending/11.jpg" class="img-thumbnail" alt="">
+                            <a href="#">jannat</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/trending/12.jpg" class="img-thumbnail" alt="">
+                            <a href="#">filhall</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        </div>
+                    </div>            
+                    <div class="carousel-item">
+                        <div class="row">
+                        <div class="col-2">
+                            <img src="Media/trending/13.jpg" class="img-thumbnail" alt="">
+                            <a href="#">shayad</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/trending/14.jpg" class="img-thumbnail" alt="">
+                            <a href="#">garmi</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/trending/15.jpg" class="img-thumbnail" alt="">
+                            <a href="#">surma surma</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/trending/16.jpg" class="img-thumbnail" alt="">
+                            <a href="#">jhanjar</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2 song" data-switch="2">
+                            <img src="Media/trending/17.jpg" class="img-thumbnail" alt="">
+                            <a href="#">old skool</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/trending/18.jpg" class="img-thumbnail" alt="">
+                            <a href="#">illegal weapn 2.0</a>
+                            <div class="middle">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        </div>
+                    </div>          
+                </div>          
+                <a class="carousel-control-prev" href="#carouselFade" role="button" data-slide="prev">
+                    <i class="fas fa-angle-double-left prev-1"></i>
+                </a>
+                <a class="carousel-control-next" href="#carouselFade" role="button" data-slide="next">
+                    <i class="fas fa-angle-double-right next-1"></i>
+                </a>
+            </div>
+            <br>
+            <hr class="new1">
+            <br>
+            <div id="carouselFadetwo" class="carousel slide arslan" data-ride="carousel">
+                <div class="carousel-inner">
+                    <h2>top charts</h2>
+                    <div class="carousel-item active">
+                        <div class="row">
+                        <div class="col-2">
+                            <img src="Media/top charts/1.jpg" class="img-thumbnail" alt="">
+                            <a href="#">hindi top 50</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/top charts/2.jpg" class="img-thumbnail" alt="">
+                            <a href="#">hindi top 50</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/top charts/3.jpg" class="img-thumbnail" alt="">
+                            <a href="#">international top 50</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/top charts/4.jpg" class="img-thumbnail" alt="">
+                            <a href="#">gaana originals 20</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/top charts/5.jpg" class="img-thumbnail" alt="">
+                            <a href="#">new releases hot 20 </a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/top charts/6.jpg" class="img-thumbnail" alt="">
+                            <a href="#">new releases hot 20</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        </div>
+                    </div>            
+                    <div class="carousel-item">
+                        <div class="row">
+                        <div class="col-2">
+                            <img src="Media/top charts/7.jpg" class="img-thumbnail" alt="">
+                            <a href="#">new releases hot 20</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/top charts/8.jpg" class="img-thumbnail" alt="">
+                            <a href="#">bhakti top 20</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/top charts/9.jpg" class="img-thumbnail" alt="">
+                            <a href="#">punjabi party top 50</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/top charts/10.jpg" class="img-thumbnail" alt="">
+                            <a href="#">hindi romance top 50</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/top charts/11.jpg" class="img-thumbnail" alt="">
+                            <a href="#">punhabi romance top 50</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/top charts/12.jpg" class="img-thumbnail" alt="">
+                            <a href="#">hindi dance top 50</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        </div>
+                    </div>            
+                    <div class="carousel-item">
+                        <div class="row">
+                        <div class="col-2">
+                            <img src="Media/top charts/13.jpg" class="img-thumbnail" alt="">
+                            <a href="#">hindi 90s top 50</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/top charts/14.jpg" class="img-thumbnail" alt="">
+                            <a href="#">romance top 50-2018 (punjabi)</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/top charts/15.jpg" class="img-thumbnail" alt="">
+                            <a href="#">party top 50-2018 (punjabi)</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/top charts/16.jpg" class="img-thumbnail" alt="">
+                            <a href="#">latest dance 2020-hindi</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/top charts/17.jpg" class="img-thumbnail" alt="">
+                            <a href="#">latest love 2020-hindi</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>            
+                        <div class="col-2">
+                            <img src="Media/top charts/18.jpg" class="img-thumbnail" alt="">
+                            <a href="#">punjabi top 100-2018</a>
+                            <div class="middle" style="top: 35%;">
+                                <div class="text"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>          
+                <a class="carousel-control-prev buttons" href="#carouselFadetwo" role="button" data-slide="prev">
+                  <i class="fas fa-angle-double-left prev-1"></i>
+                </a>
+                <a class="carousel-control-next" href="#carouselFadetwo" role="button" data-slide="next">
+                    <i class="fas fa-angle-double-right next-1"></i>
+                </a>
+            </div>
+            <br>
+            <hr class="new1">
+            <br>
+            <div id="carouselFadethird" class="carousel slide arslan" data-ride="carousel">
+                <div class="carousel-inner">
+                    <h2>new releases</h2>
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="Media/new release/1.jpg" class="img-thumbnail" alt="">
+                                <a href="#">mujhse kaha naa gaya</a>
+                                <p>palash sen</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                            <div class="col-2">
+                                <img src="Media/new release/2.jpg" class="img-thumbnail" alt="">
+                                <a href="#">saraswati puja</a>
+                                <p>various artists</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                            <div class="col-2">
+                                <img src="Media/new release/3.png" class="img-thumbnail" alt="">
+                                <a href="#">naina ra lobhi</a>
+                                <p>rapperiya baalam</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                            <div class="col-2">
+                                <img src="Media/new release/4.jpg" class="img-thumbnail" alt="">
+                                <a href="#">nakhrali gori</a>
+                                <p>mewadi brothers</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                            <div class="col-2">
+                                <img src="Media/new release/5.jpg" class="img-thumbnail" alt="">
+                                <a href="#">banri tha ki ladli</a>
+                                <p>mewadi brothers</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                            <div class="col-2">
+                                <img src="Media/new release/6.jpg" class="img-thumbnail" alt="">
+                                <a href="#">laddo rani</a>
+                                <p>pk nimbrak</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                        </div>
+                    </div>            
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="Media/new release/7.jpg" class="img-thumbnail" alt="">
+                                <a href="#">rajasthani vivah</a>
+                                <p>mukesh choudhary</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                            <div class="col-2">
+                                <img src="Media/new release/8.jpg" class="img-thumbnail" alt="">
+                                <a href="#">dil mharo todiya janu</a>
+                                <p>mewadi brothers</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                            <div class="col-2">
+                                <img src="Media/new release/9.jpg" class="img-thumbnail" alt="">
+                                <a href="#">laal peli anhhiyan</a>
+                                <p>mame khan</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                            <div class="col-2">
+                                <img src="Media/new release/10.jpg" class="img-thumbnail" alt="">
+                                <a href="#">baisara beera</a>
+                                <p>rapperiya baalam</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                            <div class="col-2">
+                                <img src="Media/new release/11.jpg" class="img-thumbnail" alt="">
+                                <a href="#">de de thumko</a>
+                                <p>kali juneja</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                            <div class="col-2">
+                                <img src="Media/new release/12.jpg" class="img-thumbnail" alt="">
+                                <a href="#">tera ghata</a>
+                                <p>gajendra verma</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                        </div>
+                    </div>            
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="Media/new release/13.jpg" class="img-thumbnail" alt="">
+                                <a href="#">rajasthan rap</a>
+                                <p>young h</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                            <div class="col-2">
+                                <img src="Media/new release/14.jpg" class="img-thumbnail" alt="">
+                                <a href="#">sawan bhadava</a>
+                                <p>raj studio</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                            <div class="col-2">
+                                <img src="Media/new release/15.jpg" class="img-thumbnail" alt="">
+                                <a href="#">diggi ka raja</a>
+                                <p>om studio</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                            <div class="col-2">
+                                <img src="Media/new release/16.jpg" class="img-thumbnail" alt="">
+                                <a href="#">achko machko</a>
+                                <p>raj studio</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                            <div class="col-2">
+                                <img src="Media/new release/17.jpg" class="img-thumbnail" alt="">
+                                <a href="#">lal vardi</a>
+                                <p>manish purohit</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>            
+                            <div class="col-2">
+                                <img src="Media/new release/18.jpg" class="img-thumbnail" alt="">
+                                <a href="#">banna o gadi</a>
+                                <p>mukesh choudhary</p>
+                                <div class="middle" style="top: 35%;">
+                                    <div class="text"><i class="fas fa-play"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>          
+                <a class="carousel-control-prev buttons" href="#carouselFadethird" role="button" data-slide="prev">
+                    <i class="fas fa-angle-double-left prev-1"></i>
+                </a>
+                <a class="carousel-control-next" href="#carouselFadethird" role="button" data-slide="next">
+                    <i class="fas fa-angle-double-right next-1"></i>
+                </a>
+            </div>
+            <br>
+            <br>
+            <hr class="new1">
+            <br>
+            <%- include("partials/featuredArtists") -%>             
+            <br>
+            <hr class="new1">
+            <%- include("partials/footer") -%>             
+        </div>
+        <div class=" player">
+            <div id="aplayer" class="apalyer"></div>
+        </div> 
+        
+        
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>        
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js" integrity="sha512-RWosNnDNw8FxHibJqdFRySIswOUgYhFxnmYO3fp+BgCU7gfo4z0oS7mYFBvaa8qu+axY39BmQOrhW3Tp70XbaQ==" crossorigin="anonymous"></script>
+        <script src="javascript/java.js"></script>
+        <script src="javascript/player.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-analytics.js"></script>
+
+        <script>
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            var firebaseConfig = {
+                apiKey: "AIzaSyCVz7ep5DTOkuHcJOzZ_Basr4OvhX3bnb4",
+                authDomain: "web-by-arslan.firebaseapp.com",
+                projectId: "web-by-arslan",
+                storageBucket: "web-by-arslan.appspot.com",
+                messagingSenderId: "1054085499264",
+                appId: "1:1054085499264:web:6bb0ba8f5ca388ec299965",
+                measurementId: "G-QRXPR30TG4"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+.background-1{
+    height: 1200px;
+}
+.background-1 .img-1{
+    width: 130px;
+    height: 70px;
+    margin-left: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.card-group-1 .card-1{
+    display: inline;
+}

@@ -1,0 +1,30 @@
+.goback{
+    position: absolute;
+    margin-top: 262px;
+    margin-left: 120px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #E72C30 !important;
+    padding: 2px 40px;
+    border: 1px solid #E72C30 !important;
+    color: white;
+    text-transform: uppercase;
+}
+.registration{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #E72C30 !important;
+    padding: 2px 40px;
+    border: 1px solid #E72C30 !important;
+    color: white;
+    text-transform: uppercase; 
+}
+.regis_div{
+    padding-top: 100px;
+}
+#acc{
+    color: #E72C30;
+}
