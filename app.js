@@ -19,7 +19,7 @@ const port = process.env.PORT || 3000;
 
 // mongdb cloud connection is here
 mongoose
-  .connect("mongodb+srv://MohammadArslan:AR!@#123@Gaana-db.pylw7.mongodb.net/Gaana-db?retryWrites=true&w=majority", {
+  .connect(process.env.MONGODB_URI || "mongodb://localhost:27017/Gaana-db", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
