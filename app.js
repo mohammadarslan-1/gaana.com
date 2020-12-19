@@ -15,9 +15,11 @@ const authenticateUser = require("./middlewares/authenticateUser");
 const app = express();
 const port = process.env.PORT || 3000;
 
+mongodb+srv://MohammadArslan:AR!@#123@gaana-db.pylw7.mongodb.net/Gaana-db?retryWrites=true&w=majority
+
 // mongdb cloud connection is here
 mongoose
-  .connect("mongodb://localhost:27017/userDB", {
+  .connect("mongodb://localhost:27017/Gaana-db", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
